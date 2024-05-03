@@ -10,7 +10,7 @@ function submitForm() {
     var inputValue6 = document.getElementById("email").value;
     var inputValue7 = document.getElementById("00NIR000009MQHu").value;
     var inputValue8 = document.getElementById("00NIR000009MQIT").value;
-    var inputValue9 = document.getElementById("00NIR000009MQId").value;
+//    var inputValue9 = document.getElementById("00NIR000009MQId").value;
     
     if (!inputValue1 || !inputValue2 || !inputValue3 || !inputValue4 || !inputValue5 || 
     !inputValue6 || !inputValue7 || !inputValue8 || !inputValue9) {
