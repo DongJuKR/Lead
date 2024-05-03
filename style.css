@@ -1,7 +1,18 @@
 *{
   text-align : center;
 }
-input[type=text]{
+
+.item1 {
+  left: 200px;
+  position: absolute;
+}
+.item2 {
+  position: absolute;
+  left: 650px;
+  top: 420px;
+}
+
+input{
   font-family: 'Noto Sans KR','Noto Sans Korean', "Nanum Gothic", sans-serif !important;
   -webkit-appearance: none;
   -webkit-border-radius: 0;
@@ -10,23 +21,6 @@ input[type=text]{
   font-size: 10px;
   
 }
-input[type="checkbox"]{
-  -ms-transform: scale(2); /* IE */
-
--moz-transform: scale(2); /* FF */
-
--webkit-transform: scale(2); /* Safari and Chrome */
-
--o-transform: scale(2); /* Opera */
-
-padding: 10px;
-}
-
-.item2{
-  margin-top: 20px;
-  
-}
-
 input::placeholder{
 color: #d9d9d9
 }
@@ -51,7 +45,6 @@ color: #d9d9d9
   font-size: 12px;
   color: #888;
   font-weight: bold;
-  
 }
 .dust-class label span{
   color: #da4841;
@@ -78,17 +71,6 @@ color: #d9d9d9
   padding: 16px;
   margin-top: 25px;
 }
-.dust-class input[type=checkbox]{
-  width: 334px;
-  border: 1px solid #dddddd !important;
-  font-size: 1rem;
-  line-height: 1.45;
-  letter-spacing: -0.04rem;
-  border-radius: 8px;
-  padding: 16px;
-  margin-top: 25px;
-  
-}
 .b-button{
   
   background-color:#079992;
@@ -107,29 +89,33 @@ color: #d9d9d9
 }
 .allpage{
   width: 1100px;
-  height: 650px;
+  height: 870px;
   background-image: url('./SalesforceIMG.jpg');
   background-size: cover;
+}
+
+.image_container{
+  width: 100px;
+  height: 100pt;
+  overflow: hidden;
+  margin: 0 auto;
 }
 .subbox{
   position: absolute;
   left: 17%;
   top:15%;
 }
-.responseitem{
-  width: 800px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  /* flex-wrap: warp; */
-  
-  
-}
-.footeritem{
-  position: absolute;
-  left: 250px;
-}
 
+body {margin: 10px;}
+.where {
+  display: block;
+  margin: 25px 15px;
+  font-size: 11px;
+  color: #000;
+  text-decoration: none;
+  font-family: verdana;
+  font-style: italic;
+} 
 
 /*@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
 
